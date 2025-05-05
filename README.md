@@ -16,24 +16,7 @@ This project is a smart voice-based assistant that helps users book tables at a 
 
 📛 Basic error handling and validation
 
-🗂️ Project Structure
-makefile
-Copy
-Edit
-ai-restaurant-agent/
-│
-├── main.py                      # Core logic flow
-├── database.py                  # SQLite DB creation + insert
-├── sms_module.py                # SMS sending (optional)
-├── export.py                    # Export bookings to Excel
-├── requirements.txt             # Python dependencies
-│
-├── utils/
-│   ├── ai_agent.py              # AI response using OpenRouter/OpenAI
-│   ├── speech_to_text.py        # Converts speech to text
-│   ├── text_to_speech.py        # Converts text to speech
-│   ├── parse_utils.py           # Extract numbers from text
-│   └── models.py                # (optional) for future DB schemas
+
 💡 How It Works
 Starts with an intro voice greeting.
 
