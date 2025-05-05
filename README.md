@@ -59,30 +59,20 @@ re	Regex parsing for numbers/phones
 ▶️ How to Run
 Clone the repo
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ai-restaurant-agent.git
-cd ai-restaurant-agent
+
+git clone https://github.com/Nazimxc/Ai-restaurant-agent.git
+
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Set your .env file
 
-ini
-Copy
-Edit
 OPENROUTER_API_KEY=your_api_key
 TWILIO_SID=optional
 TWILIO_AUTH_TOKEN=optional
 Run the app
 
-bash
-Copy
-Edit
 python main.py
 ✅ Future Enhancements
 Web interface for browser-based voice input
